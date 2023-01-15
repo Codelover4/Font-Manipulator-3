@@ -1,0 +1,42 @@
+.copy_right_footer {
+    position:fixed;
+    color:aliceblue;
+    bottom:0;
+    width:100%;
+    background-color:rgb(129, 129, 129);
+    line-height:3;
+    text-align:center;
+}
+
+.note
+{
+    font-size:15px;
+    color: black;
+}
+
+.heading
+ {
+font-size:23px;
+width:100%;
+margin:0px;
+box-shadow:5px 5px 5px rgb(156, 156, 156);
+border-color:rgb(118, 228, 255);
+  background-color:rgb(224, 247, 255);
+  color:rgb(9, 232, 252);
+
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 5px 5px 30px rgb(0, 229, 255);}
+}
+
+canvas
+{
+    height:100px;
+    width:100px;
+}
+
+body {
+  position:center;
+}
